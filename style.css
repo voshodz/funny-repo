@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.gif-wrapper {
+  padding-top: 20%;
+}
+.gif-wrapper img {
+  max-height: 250px;
+}
+
+.img-wrapper {
+  color: rgb(222, 207, 207);
+  width: 200px;
+  transition: width 2s ease-in-out;
+}
+
+.img-wrapper img{
+  width: 100%;
+  border-radius: 50%;
+}
